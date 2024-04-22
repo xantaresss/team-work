@@ -33,6 +33,7 @@ namespace _14_laba
                 form2.Show();
                 this.Hide(); // Скрываем Form1 при открытии Form2
 
+
             }
             else
             {

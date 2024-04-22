@@ -9,3 +9,8 @@ D:\С#\14 laba\14 laba\14 laba\obj\Debug\14 laba.csproj.GenerateResource.cache
 D:\С#\14 laba\14 laba\14 laba\obj\Debug\14 laba.csproj.CoreCompileInputs.cache
 D:\С#\14 laba\14 laba\14 laba\obj\Debug\14 laba.exe
 D:\С#\14 laba\14 laba\14 laba\obj\Debug\14 laba.pdb
+D:\С#\14 laba\14 laba\14 laba\bin\Debug\Newtonsoft.Json.dll
+D:\С#\14 laba\14 laba\14 laba\bin\Debug\Newtonsoft.Json.xml
+D:\С#\14 laba\14 laba\14 laba\obj\Debug\14 laba.csproj.Up2Date
+D:\С#\14 laba\14 laba\14 laba\bin\Debug\Database1.mdf
+D:\С#\14 laba\14 laba\14 laba\bin\Debug\Database1_log.ldf
