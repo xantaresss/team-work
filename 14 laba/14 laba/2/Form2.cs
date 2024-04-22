@@ -70,7 +70,7 @@ namespace _14_laba._2
         {
             try
             {
-
+                
                 dataSet.Tables["Users"].Clear();
 
                 sqlDataAdapter.Fill(dataSet, "Users");
@@ -107,7 +107,7 @@ namespace _14_laba._2
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+            //пепреводит на другой лист
             tabControl.SelectedTab = tabPage2;
 
         }
@@ -155,7 +155,8 @@ namespace _14_laba._2
 
 
                     else if (task == "Insert")
-                    {
+                    { 
+                        //если воодим значения кнопка Deelete меняется на insert и выполняет следующие действия
                         int rowIndex = dataGridView1.Rows.Count - 2;
                         DataRow row = dataSet.Tables["Users"].NewRow();
 
@@ -169,6 +170,7 @@ namespace _14_laba._2
                  == DialogResult.Yes)
 
                         {
+                            
                             dataSet.Tables["Users"].Rows.Add(row);
 
                             dataSet.Tables["Users"].Rows.RemoveAt(dataSet.Tables["Users"].Rows.Count - 1);
@@ -186,6 +188,7 @@ namespace _14_laba._2
                     }
                     else if (task == "Update")
                     {
+                        //если воодим значение в имеющую строку
                         int r = e.RowIndex;
 
                         dataSet.Tables["Users"].Rows[r] ["number"] = dataGridView1.Rows[r].Cells["number"].Value;
@@ -427,6 +430,11 @@ private void label4_Click(object sender, EventArgs e)
         private void button2_Click_1(object sender, EventArgs e)
         {
             ReloadData();
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
